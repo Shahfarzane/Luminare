@@ -133,10 +133,10 @@ public extension View {
         )
         .luminareSheetCornerRadii(
             .init(
-                topLeading: 12 + (isCompact ? 8 : 16),
-                bottomLeading: 8 + (isCompact ? 8 : 16),
-                bottomTrailing: 8 + (isCompact ? 8 : 16),
-                topTrailing: 12 + (isCompact ? 8 : 16)
+                topLeading: 12 + (isCompact ? 8.0 : 16.0),
+                bottomLeading: 8 + (isCompact ? 8.0 : 16.0),
+                bottomTrailing: 8 + (isCompact ? 8.0 : 16.0),
+                topTrailing: 12 + (isCompact ? 8.0 : 16.0)
             )
         )
     }
